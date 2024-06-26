@@ -1,5 +1,5 @@
-let a=20;
-let b=10;
+let a = 20;
+let b = 10;
 
 a++; b++;// using the increment operator to  increase the values of a and b by 1
  console.log(a,b);
@@ -17,3 +17,14 @@ console.log("Product of the a and b is " +  (a*b));
 console.log("Division of the a and b is " +  (a/b));
 
 console.log("Modulus of the a and b is " +  (a%b));
+console.log("a==b" ,a==b);
+console.log("a!=b" ,a!=b);
+console.log("a===b",a===b);
+let c = prompt("Enter a number");
+if (c%5 == 0) {
+    prompt("The number is multiple of 5");
+
+}
+else {
+    prompt("The number is not multiple of 5");
+}
