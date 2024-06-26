@@ -48,3 +48,31 @@ else if (score >= 50 && score <= 59) {
 else {
     console.log("You are failed");
 }
+//For  Calculating the sum of 1 to 5
+let sum = 0;
+let n=prompt("Enter a number")
+for (let i = 0; i <= n; i++) {
+    sum = sum + i;
+}
+console.log("Sum: ", sum);
+
+let student={
+    name:"Ritesh Biswakarma",
+    age:20,
+    cgpa:7.2,
+    isPass:true
+
+};
+for(let i in student) 
+    {
+        console.log(student[i]);
+    }
+//game with user
+let number=29;
+let guess=prompt("Enter a number")
+while(number!=guess)
+    {
+        console.log("you guessed wrong number: ", guess);
+
+    }
+    console.log("Congratulations you have guessed the number",guess);
