@@ -66,11 +66,4 @@ let student = {
 for (let i in student) {
     console.log(student[i]);
 }
-//game with user
-let number = 29;
-let guess = prompt("Enter a number")
-while (number != guess) {
-    console.log("you guessed wrong number: ", guess);
 
-}
-console.log("Congratulations you have guessed the number", guess);
