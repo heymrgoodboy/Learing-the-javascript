@@ -55,11 +55,31 @@ for (let i in student) {
 
 // Array in java script
 let marks=[185,96,44,37,76,60];
-let sum=0;
+let ssum=0;
 for(let mark of marks)
     {
-        sum+=mark;
+        ssum+=mark;
     }
 let average=(sum/marks.length);
 average=`The average is the = ${average} `;
 console.log(average);
+let prices=[250,645,300,900,50];
+let sum=0;
+let afterDis=0;
+let i=0;
+const dis=(10/100);
+for (let price in prices)
+    {
+        console.log("The price  before discount",prices[price]);
+    }
+for( i in prices)
+    {
+        sum=(prices[i]*dis);
+        afterDis=prices[i]-sum;
+        
+        console.log("The price after discount",afterDis);
+              
+
+       
+        
+    }
